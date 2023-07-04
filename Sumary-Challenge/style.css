@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.container__left{
+    text-align: center;
+    background-color: hsl(241, 81%, 54%);
+    width: 100%;
+    height: auto;
+}
