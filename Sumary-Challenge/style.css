@@ -99,7 +99,7 @@
 }
 
 .first__content{
-    gap: 2px;
+    gap: 5px;
     display: flex;
     font-weight: 700;
     margin-left: 0.5rem;
@@ -116,13 +116,14 @@
 }
 
 
+/* COLOR CARDS */
 
 .card__red{
     background:rgb(255, 210, 210);
 }
 
 .card__yellow{
-    background:rgb(255, 255, 179);
+    background:rgb(250, 250, 190);
 }
 
 .card__green{
@@ -131,4 +132,24 @@
 
 .card__blue{
     background:rgb(212, 210, 255);
+}
+
+/* COLOR TEXT CARDS */
+
+.text__red{
+    color: rgb(226, 90, 90);
+    font-weight: 900;
+}
+.text__yellow{
+    color: rgb(255, 159, 4);
+    font-weight: 900;
+}
+
+.text__green{
+    color: rgb(55, 222, 86);
+    font-weight: 900;
+}
+
+.text__blue{
+    color: rgb(84, 137, 227);  
 }
