@@ -80,3 +80,55 @@
     font-size: 0.7rem;
     margin: 0 1em;
 }
+
+.right__tittle{
+    margin: 1rem 2rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.card{
+    display: flex;
+    height: 3rem;
+    margin: 0 2rem;
+    border-radius: 12px;
+    margin-bottom: 2%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.first__content{
+    gap: 2px;
+    display: flex;
+    font-weight: 700;
+    margin-left: 0.5rem;
+}
+
+.second__content{
+    display: flex;
+    font-weight: 700;
+    margin-right: 0.5rem;
+}
+
+.second__number{
+    opacity: 50%;
+}
+
+
+
+.card__red{
+    background:rgb(255, 210, 210);
+}
+
+.card__yellow{
+    background:rgb(255, 255, 179);
+}
+
+.card__green{
+    background:rgb(210, 255, 215);
+}
+
+.card__blue{
+    background:rgb(212, 210, 255);
+}
