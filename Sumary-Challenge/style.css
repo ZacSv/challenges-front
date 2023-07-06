@@ -153,3 +153,22 @@
 .text__blue{
     color: rgb(84, 137, 227);  
 }
+
+.button__container{
+    border-radius: 12px;
+    height: 2.5rem;
+    display: flex;
+    text-align: center;
+    margin: 2.6rem 2rem;
+    background: rgb(68, 68, 249);
+    
+}
+
+.button__container:hover{
+    background-color: rgb(1, 1, 215) ;
+}
+
+.button{
+    text-decoration: none; 
+    color: white;
+}
