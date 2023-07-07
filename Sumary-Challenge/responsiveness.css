@@ -1,0 +1,57 @@
+@import url('./style.css');
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Inter:wght@400;700&display=swap');
+
+@media(min-width: 1200px){
+    
+    /* RESPONSIVENESS OF DESKTOP */
+
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 10%;
+    }
+
+    /* CONTAINER LEFT */
+    .container__left{
+        width: 300px;
+        height: 400px;
+        border-radius: 12px;
+        
+        
+    }
+
+    .container__left__tittle{
+        font-size: 1.5rem;
+    }
+
+    .container__span{
+        margin: 1rem 0;
+        font-size: 2rem;
+        opacity: 80%;
+    }
+
+    .container__footer__text{
+        font-size: 1rem;
+    }
+
+    /* CONTAINER RIGHT */
+    .container__right{
+        height: 400px;
+        opacity: 80%;
+        border-radius: 12px;
+        box-shadow: 2px 4px 15px rgb(110, 109, 109);
+    }
+    .right__tittle{
+        text-align: start;
+        font-weight: 700;
+        font-size: 1.2rem;
+        font-family: 'Bacasime Antique', serif;
+        
+    }
+    
+    .card{
+        width: 18rem;
+    }
+}
