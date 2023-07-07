@@ -55,3 +55,58 @@
         width: 18rem;
     }
 }
+
+/* REPONSIVENESS OF TABLET */
+@media(min-width: 800px){
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 35%;
+    }
+
+    /* CONTAINER LEFT */
+    .container__left{
+        width: 400px;
+        height: 450px;
+        border-radius: 12px;
+        
+        
+    }
+
+    .container__left__tittle{
+        font-size: 1.5rem;
+    }
+
+    .container__span{
+        margin: 1rem 0;
+        font-size: 2rem;
+        opacity: 80%;
+    }
+
+    .container__footer__text{
+        font-size: 1rem;
+    }
+
+    /* CONTAINER RIGHT */
+    .container__right{
+        width: 400px;
+        height: 450px;
+        opacity: 80%;
+        border-radius: 12px;
+        box-shadow: 2px 4px 15px rgb(110, 109, 109);
+    }
+    .right__tittle{
+        text-align: start;
+        font-weight: 700;
+        font-size: 1.2rem;
+        font-family: 'Bacasime Antique', serif;
+        
+    }
+    
+    .card{
+        margin-top: 1.5rem;
+        width: 22rem;
+    }
+}
