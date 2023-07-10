@@ -1,97 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/responsiveness.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="responsiveness.css">
+    <title>Results summary component</title>
+  </head>
 
-  <title> Results summary component</title>
+  <body>
+    <main class="main">
+      <section class="container container__left">
+        <h2 class="container__left__tittle">Your Result</h2>
+        <section class="container container__circle__results">
+          <h1 class="circle__results__result">76</h1>
+          <p class="circle__span">of 100</p>
+        </section>
 
-</head>
+        <section class="container container__footer">
+          <h1 class="container container__span">Great</h1>
+          <p class="container container__footer__text">
+            You scored higher than 65% of the people who haven taken these
+            tests.
+          </p>
+        </section>
+      </section>
 
-<body>
-  <main class="main">  
-    
-    <section class="container container__left">
+      <section class="container container__right">
+        <p class="container right__tittle">Summary</p>
 
-    <h2 class="container__left__tittle">
-      Your Result
-    </h2>
-    <section class="container container__circle__results">
-      <h1 class="circle__results__result">
-        76
-      </h1>
-      <p class="circle__span">
-        of 100
-      </p>
-    </section>
+        <section class="card card__red">
+          <div class="first__content">
+            <img src="./assets/images/icon-reaction.svg" alt="icon-reaction" />
+            <p class="text__red">Reaction</p>
+          </div>
+          <div class="second__content">
+            <p>81</p>
+            <p class="second__number">/100</p>
+          </div>
+        </section>
 
-    <section class="container container__footer">
-      <h1 class="container container__span">
-        Great
-      </h1>
-      <p class="container container__footer__text">
-        You scored higher than 65% of the people who haven taken these tests.
-      </p>
-    </section>
+        <section class="card card__yellow">
+          <div class="first__content">
+            <img src="./assets/images/icon-memory.svg" alt="icon-memory" />
+            <p class="text__yellow">Memory</p>
+          </div>
+          <div class="second__content">
+            <p>92</p>
+            <p class="second__number">/100</p>
+          </div>
+        </section>
 
-  </section>
+        <section class="card card__green">
+          <div class="first__content">
+            <img src="./assets/images/icon-verbal.svg" alt="icon-verbals" />
+            <p class="text__green">Verbal</p>
+          </div>
+          <div class="second__content">
+            <p>61</p>
+            <p class="second__number">/100</p>
+          </div>
+        </section>
 
-  <section class="container container__right">
-    <p class="container right__tittle">Summary</p>
-
-    <section class="card card__red">
-      <div class="first__content">
-        <img src="./assets/images/icon-reaction.svg" alt="icon-reaction">
-        <p class="text__red"> Reaction</p>
-      </div>
-      <div class="second__content">
-        <p>81</p>
-        <p class="second__number">/100</p>
-      </div>
-    </section>
-
-    <section class="card card__yellow">
-      <div class="first__content">
-        <img src="./assets/images/icon-memory.svg" alt="icon-memory">
-        <p class="text__yellow">Memory</p>
-      </div>
-      <div class="second__content">
-        <p>92</p>
-        <p class="second__number">/100</p>
-      </div>
-    </section>
-
-    <section class="card card__green">
-      <div class="first__content">
-        <img src="./assets/images/icon-verbal.svg" alt="icon-verbals">
-        <p class="text__green">Verbal</p>
-      </div>
-      <div class="second__content">
-        <p>61</p>
-        <p class="second__number">/100</p>
-      </div>
-    </section>
-
-    <section class="card card__blue">
-      <div class="first__content">
-        <img src="./assets/images/icon-visual.svg" alt="icon-visual">
-        <p class="text__blue">Visual</p>
-      </div>
-      <div class="second__content">
-        <p>72</p>
-        <p class="second__number">/100</p>
-      </div>
-    </section>
-    <section class="container button__container">
-      <a class="button" href="https://github.com/ZacSv">Continue</a>
-  </section>
- 
-  </section></main>
-
-</body>
-
+        <section class="card card__blue">
+          <div class="first__content">
+            <img src="./assets/images/icon-visual.svg" alt="icon-visual" />
+            <p class="text__blue">Visual</p>
+          </div>
+          <div class="second__content">
+            <p>72</p>
+            <p class="second__number">/100</p>
+          </div>
+        </section>
+        <section class="container button__container">
+          <a class="button" href="https://github.com/ZacSv">Continue</a>
+        </section>
+      </section>
+    </main>
+  </body>
 </html>
