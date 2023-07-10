@@ -7,3 +7,7 @@ This project was developed as a challenge for the Mentor Front-end website and a
 for creating a fully responsive interface. This interface is a screen displaying the result of a cognitive test, it was made only with
 HTML and CSS and is adaptable for desktops, cell phones and tablets, I'll leave images below with the results.
 
+<div align= "center"> 
+  <br>
+  <img src="https://github.com/ZacSv/challenges-front/assets/71881016/b3bc1b80-24f2-43ef-b10c-b03a085a4b0c.png" width = "600px"/> 
+</div>
